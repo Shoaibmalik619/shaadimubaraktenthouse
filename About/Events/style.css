@@ -1,0 +1,80 @@
+body{
+    background-image: url(Images/Image.jpeg);
+    background-attachment: fixed;
+}
+/* navbar */
+.nav-link{
+    margin-left: 1em;
+    text-align: justify;
+    
+}
+.nav-link:hover{
+    background-color:white;
+    color: black !important;
+    border-radius: 3em;
+}
+.dropdown-item:hover{
+    background-color: rgb(0, 0, 54);;
+    color: white;
+    
+
+}
+.soc{
+    margin-left: 2em;
+    margin-top: -0.1em;
+}
+/* Text */
+.text{
+    margin-top: 5em;
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Galler */
+/* .carousel-item{ */
+/*      */
+/*      */
+/* } */
+/*  */
+
+
+.card{
+    margin-top: 3em;
+    margin-left: 1.1em;
+    display: inline-block;
+}
+
+
+
+
+/* Moblie */
+@media only screen and (max-width: 1200px) {
+    
+.form-inline{
+display: none;
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .nav-link:hover{
+        background-color:white;
+        color: black !important;
+        border-radius: 0em;
+        padding: 0.5em;
+    }
+    
+    .soc{
+        display: none;
+        margin-left: 4em;
+        margin-top: -0.1em;
+    }
+    
+
+
+
+
+
+
+}

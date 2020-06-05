@@ -1,0 +1,174 @@
+body{
+    background-image: url(Images/Image.jpeg);
+    background-attachment: fixed;
+}
+/* navbar */
+.nav-link{
+    margin-left: 1em;
+    text-align: justify;
+    
+}
+.nav-link:hover{
+    background-color:white;
+    color: black !important;
+    border-radius: 3em;
+}
+.dropdown-item:hover{
+    background-color: rgb(0, 0, 54);;
+    color: white;
+    
+
+}
+.soc{
+    margin-left: 2em;
+    margin-top: -0.1em;
+}
+
+.about{
+    color: white;
+    margin-top: 2.5em;
+    margin-left: 0.7em;
+    
+}
+#line{
+    color: rgb(255, 255, 255);
+    margin-left: 0.7em;
+    margin-top: -1.2em;
+
+}
+
+
+#fool{
+    position: relative;
+    top: 4em;
+    margin-left: -7em;
+    width: 79.9em; 
+    background-color: rgb(0, 0, 54);
+    padding: 1em;
+    text-align: center;
+
+}
+
+
+
+/* Text */
+.text{
+    margin-top: 5em;
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Galler */
+/* .carousel-item{ */
+/*      */
+/*      */
+/* } */
+/*  */
+
+.pic{
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: 8em;
+    color: white;
+    margin-left: 6em;
+    margin-right: 6em;
+    height: 31em;
+    flex-wrap: wrap;
+}
+.h1{
+  padding-top: 0.4em;
+  padding-left: 1.2em;
+  text-decoration: underline;
+  display: flex;
+}
+.pa{
+    font-size:1.4em;
+    padding-left: 2em;
+}
+
+.img1{
+    margin-left: 27em;
+    margin-top: -18em;
+    height: 20em;
+    display: flex;
+    
+}
+
+
+/* Moblie */
+@media only screen and (max-width: 1200px) {
+    
+.form-inline{
+display: none;
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .nav-link:hover{
+        background-color:white;
+        color: black !important;
+        border-radius: 0em;
+        padding: 0.5em;
+    }
+    
+    .soc{
+        display: none;
+        margin-left: 4em;
+        margin-top: -0.1em;
+    }
+    
+    .pic{
+        background: rgba(0, 0, 0, 0.6);
+        margin-top: 8em;
+        color: white;
+        margin-left: 2.8em;
+        margin-right: -11em;
+        height: 90em;
+        width: 57em;
+    }
+    
+
+    .h1{
+      padding-top: 0.4em;
+      font-size: 3em;
+      width: 19em;
+      margin-left: -0.2em;
+      
+    }
+    .pa{
+        font-size: 2.5em;
+       margin-top: -0.4em;
+        margin-left: -1em;
+        padding-top: 0.6em;
+        width: 23em;
+    }
+    
+    .img1{
+        position: absolute;
+        top: 39em;
+        left: -25.1em;
+        width: 20em;
+        
+    }
+    
+#md{
+    width: 21em;
+    height: 14em;
+}
+
+#fool{
+    position: relative;
+    top: 30em;
+    margin-left: -5em;
+    width: 34em; 
+    background-color: rgb(0, 0, 54);
+    padding: 1em;
+    font-size: 2em;
+    text-align: center;
+    padding-left: 5em;
+
+}
+
+
+}
